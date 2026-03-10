@@ -1,0 +1,18 @@
+# Simulink build cache
+slprj/
+*.slxc
+
+# MATLAB generated files
+*.asv
+*.m~
+*.autosave
+codegen/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
