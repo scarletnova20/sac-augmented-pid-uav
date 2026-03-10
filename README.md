@@ -1,20 +1,15 @@
-<![CDATA[<div align="center">
-
-# 🚁 SAC-Augmented PID Control for Quadcopter UAVs
+<![CDATA[# 🚁 SAC-Augmented PID Control for Quadcopter UAVs
 
 **AI-Driven Adaptive PID Tuning via Soft Actor-Critic Reinforcement Learning**
 
-[![MATLAB](https://img.shields.io/badge/MATLAB-R2024b+-E16737?logo=mathworks&logoColor=white)](https://www.mathworks.com/products/matlab.html)
-[![Simulink](https://img.shields.io/badge/Simulink-Aerospace_Blockset-0076A8?logo=mathworks&logoColor=white)](https://www.mathworks.com/products/simulink.html)
-[![RL Toolbox](https://img.shields.io/badge/Reinforcement_Learning-Toolbox-00B2A9)](https://www.mathworks.com/products/reinforcement-learning.html)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![MATLAB](https://img.shields.io/badge/MATLAB-R2024b+-E16737?logo=mathworks&logoColor=white)
+![Simulink](https://img.shields.io/badge/Simulink-Aerospace_Blockset-0076A8?logo=mathworks&logoColor=white)
+![RL Toolbox](https://img.shields.io/badge/Reinforcement_Learning-Toolbox-00B2A9)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-*A hybrid control system that augments classical cascaded PID with a Soft Actor-Critic (SAC) agent,  
-achieving up to **71% RMSE improvement** in position tracking under wind disturbances.*
+> A hybrid control system that augments classical cascaded PID with a Soft Actor-Critic (SAC) agent, achieving up to **71% RMSE improvement** in position tracking under wind disturbances.
 
 ---
-
-</div>
 
 ## 📋 Table of Contents
 
@@ -284,9 +279,5 @@ This project is released under the [MIT License](LICENSE).
 
 ---
 
-<div align="center">
-
-**Built with MATLAB & Simulink** · **Soft Actor-Critic** · **Deep Reinforcement Learning**
-
-</div>
+**Built with MATLAB & Simulink · Soft Actor-Critic · Deep Reinforcement Learning**
 ]]>
