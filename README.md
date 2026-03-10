@@ -1,4 +1,4 @@
-# 🚁 SAC-Augmented PID Control for Quadcopter UAVs
+# SAC-Augmented PID Control for Quadcopter UAVs
 
 **AI-Driven Adaptive PID Tuning via Soft Actor-Critic Reinforcement Learning**
 
@@ -11,23 +11,23 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Problem Statement](#-problem-statement)
-- [Proposed Solution](#-proposed-solution)
-- [System Architecture](#-system-architecture)
-- [Key Results](#-key-results)
-- [Project Structure](#-project-structure)
-- [Requirements](#-requirements)
-- [Quick Start](#-quick-start)
-- [Project Phases](#-project-phases)
-- [Technical Details](#-technical-details)
-- [Visualization](#-visualization)
-- [License](#-license)
+- [Problem Statement](#problem-statement)
+- [Proposed Solution](#proposed-solution)
+- [System Architecture](#system-architecture)
+- [Key Results](#key-results)
+- [Project Structure](#project-structure)
+- [Requirements](#requirements)
+- [Quick Start](#quick-start)
+- [Project Phases](#project-phases)
+- [Technical Details](#technical-details)
+- [Visualization](#visualization)
+- [License](#license)
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Classical cascaded PID controllers achieve precise position tracking for quadcopter UAVs in calm conditions. However, **fixed PID gains** represent an inherent compromise between responsiveness and stability — they **cannot adapt** to changing environmental conditions such as:
 
@@ -39,7 +39,7 @@ This results in significant performance degradation (up to **0.41 m RMSE**) when
 
 ---
 
-## 💡 Proposed Solution
+## Proposed Solution
 
 A **Soft Actor-Critic (SAC)** reinforcement learning agent acts as a supervisory layer that dynamically adjusts the inner PID loop's gain parameters (Kp, Ki, Kd) in real time. The agent **does not replace** the PID controller — it **continuously tunes** it based on observed tracking errors and current system state.
 
@@ -54,7 +54,7 @@ A **Soft Actor-Critic (SAC)** reinforcement learning agent acts as a supervisory
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
                     ┌─────────────┐
@@ -83,7 +83,7 @@ The SAC agent observes a **15-dimensional state vector** (position errors, attit
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 | Scenario | Baseline PID RMSE | AI-Augmented PID RMSE | Improvement |
 |:---|:---:|:---:|:---:|
@@ -96,7 +96,7 @@ The SAC agent observes a **15-dimensional state vector** (position errors, attit
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Quadcopter_control_system/
@@ -128,7 +128,7 @@ Quadcopter_control_system/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - **MATLAB R2024b** or later
 - **Simulink**
@@ -139,7 +139,7 @@ Quadcopter_control_system/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```matlab
 % 1. Open MATLAB and navigate to the project root
@@ -166,7 +166,7 @@ visualize_flight()
 
 ---
 
-## 🔬 Project Phases
+## Project Phases
 
 ### Phase 1 — Plant Modelling
 - Newton-Euler **6-DOF rigid body dynamics** via Aerospace Blockset
@@ -193,7 +193,7 @@ visualize_flight()
 
 ---
 
-## 🧠 Technical Details
+## Technical Details
 
 ### Observation Space (15 dimensions, normalised to [-1, 1])
 
@@ -256,7 +256,7 @@ act(6)  → FC(128) ──┘
 
 ---
 
-## 🎮 Visualization
+## Visualization
 
 The project includes a **3D animated flight visualization** (`visualize_flight.m`) that demonstrates:
 
@@ -273,7 +273,7 @@ visualize_flight()
 
 ---
 
-## 📄 License
+## License
 
 This project is released under the [MIT License](LICENSE).
 
