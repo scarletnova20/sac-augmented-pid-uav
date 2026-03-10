@@ -1,4 +1,4 @@
-<![CDATA[# 🚁 SAC-Augmented PID Control for Quadcopter UAVs
+# 🚁 SAC-Augmented PID Control for Quadcopter UAVs
 
 **AI-Driven Adaptive PID Tuning via Soft Actor-Critic Reinforcement Learning**
 
@@ -280,4 +280,3 @@ This project is released under the [MIT License](LICENSE).
 ---
 
 **Built with MATLAB & Simulink · Soft Actor-Critic · Deep Reinforcement Learning**
-]]>
